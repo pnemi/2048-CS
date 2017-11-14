@@ -11,8 +11,6 @@ public abstract class Grid
 
 	private static int DURATION = 150; // ms
 
-	private static double alpha = 1;
-
 	private static int _tilesAnimationsDone = 16;
 	public static int TilesAnimationsDone { get { return _tilesAnimationsDone; } set { _tilesAnimationsDone = value; } }
 

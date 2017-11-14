@@ -30,14 +30,14 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="Board.cs" />
-    <Compile Include="ColorScheme.cs" />
-    <Compile Include="Controls.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="Grid.cs" />
-    <Compile Include="Main.cs" />
-    <Compile Include="Tile.cs" />
-    <Compile Include="Window.cs" />
+    <Compile Include="src\Board.cs" />
+    <Compile Include="src\ColorScheme.cs" />
+    <Compile Include="src\Controls.cs" />
+    <Compile Include="src\Game.cs" />
+    <Compile Include="src\Grid.cs" />
+    <Compile Include="src\Main.cs" />
+    <Compile Include="src\Tile.cs" />
+    <Compile Include="src\Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mono.Cairo" />
@@ -46,5 +46,8 @@
     <Reference Include="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
   </ItemGroup>
 </Project>
